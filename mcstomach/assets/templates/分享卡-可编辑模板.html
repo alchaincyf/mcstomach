@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>麦门胃 · 分享卡可编辑模板</title>
+<style>
+/* ============================================================
+   麦门胃 · 分享卡模板（可编辑）
+   - 中文与数字由本模板排版；生图只负责「角色画面」那一格
+   - 品牌标志用相对路径 ../brand/麦当劳官网标志.png（原图，不改形）
+   - 直接改下面 <!-- 改这里 --> 标注的文字即可
+   ============================================================ */
+:root{
+  --red:#DA291C;
+  --red-deep:#A8160C;
+  --yellow:#FFC72C;
+  --yellow-soft:#FFF0C4;
+  --cream:#FFF9F1;
+  --ink:#231F1C;
+  --ink-soft:#7C7268;
+  --font-round:"Yuanti SC","YouYuan","PingFang SC","Hiragino Sans GB",sans-serif;
+  --font-hei:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  --font-mono:"SF Mono","Menlo","Consolas",monospace;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;padding:48px 20px;background:#F3EDE2;color:var(--ink);
+  font-family:var(--font-hei);
+  display:flex;justify-content:center;
+}
+.card{
+  width:375px;height:500px;background:var(--cream);
+  border:3px solid var(--red);border-radius:22px;
+  padding:14px 16px 13px;display:flex;flex-direction:column;
+  box-shadow:0 14px 30px rgba(168,22,12,.16);
+}
+.card .top{
+  display:flex;align-items:center;justify-content:space-between;
+  font-family:var(--font-round);font-weight:800;font-size:11.5px;
+  color:var(--red);letter-spacing:.08em;
+}
+.fiction{
+  font-family:var(--font-mono);font-size:9px;letter-spacing:.1em;
+  border:1px dashed rgba(35,31,28,.35);border-radius:999px;
+  padding:3px 7px;color:#6E6459;background:rgba(255,255,255,.7);
+}
+/* 角色画面这一格：把生图产出的插画放进来 */
+.art{
+  height:224px;margin:10px 0 0;border-radius:16px;overflow:hidden;
+  background:radial-gradient(circle at 50% 42%,#FFFDF8 0%,#FBF1E1 72%,#F6E8D2 100%);
+  display:flex;align-items:center;justify-content:center;
+  border:1px dashed rgba(35,31,28,.18);
+}
+.art img{width:90%;height:100%;object-fit:contain;display:block;}
+.art .placeholder{
+  font-family:var(--font-mono);font-size:10px;line-height:1.8;
+  color:#9C9184;text-align:center;padding:0 18px;
+}
+.name{
+  font-family:var(--font-round);font-weight:800;font-size:31px;line-height:1.16;
+  margin:13px 0 0;letter-spacing:.03em;
+}
+.decl{font-size:13.5px;line-height:1.7;color:#5F564D;margin:7px 0 0;}
+.basis{
+  align-self:flex-start;margin:11px 0 0;padding:6px 12px;border-radius:999px;
+  background:var(--yellow-soft);border:1px solid rgba(218,41,28,.18);
+  font-size:11.5px;color:#6A5218;
+}
+.rule{font-size:11.5px;line-height:1.75;color:var(--ink-soft);margin:11px 0 0;}
+.rule b{
+  display:block;font-family:var(--font-mono);font-size:9px;letter-spacing:.16em;
+  color:var(--red);font-weight:400;margin-bottom:2px;
+}
+.spacer{flex:1;}
+.invite{
+  margin:0 -16px;padding:11px 16px;text-align:center;
+  background:var(--red);color:#fff;
+  font-family:var(--font-round);font-weight:800;font-size:16px;letter-spacing:.1em;
+}
+.foot{
+  display:flex;align-items:center;justify-content:center;gap:7px;
+  margin-top:11px;font-size:9.5px;letter-spacing:.05em;color:var(--ink-soft);
+}
+.foot img{height:14px;width:auto;display:block;}
+@media print{
+  body{background:#fff;padding:0;}
+  .card{box-shadow:none;}
+}
+</style>
+</head>
+<body>
+
+<!-- 375 × 500 逻辑尺寸；要改尺寸就改上面 .card 的 width / height -->
+<div class="card">
+
+  <!-- 改这里：左上角方向名 -->
+  <div class="top">
+    <span>胃的原创卡通分身</span>
+    <span class="fiction">虚构样例</span>
+  </div>
+
+  <!-- 改这里：把 src 换成生图产出的插画（相对路径或 data URI 都行）。
+       没图就把 <img> 删掉，保留下面的 placeholder 文字，别用 CSS 画小人冒充。 -->
+  <div class="art">
+    <img src="../style/A_胃的原创卡通分身-候选1-官方麦香鱼参考-原始生图.png" alt="角色插画">
+    <!-- 没图时用这个：
+    <div class="placeholder">这里放生图产出的角色插画<br>（造型参照 ../brand/ 里的官方餐品图）</div>
+    -->
+  </div>
+
+  <!-- 改这里：角色名（一句话能接在「我是……」后面） -->
+  <div class="name">鱼堡钉子户</div>
+
+  <!-- 改这里：宣言，一句话，必须能被订单证伪 -->
+  <p class="decl">本胃已设置默认选项。</p>
+
+  <!-- 改这里：一条能溯源的依据（计数可以有，日期/地点/金额不要） -->
+  <div class="basis">4 笔个人订单 · 麦香鱼 3 次</div>
+
+  <!-- 改这里：一条可执行规则 -->
+  <div class="rule">
+    <b>可执行规则</b>
+    先看看鱼堡；想换口味时，再给我一个备选。
+  </div>
+
+  <div class="spacer"></div>
+
+  <!-- 改这里：分享邀请 -->
+  <div class="invite">鱼堡同担，来集合。</div>
+
+  <div class="foot">
+    <img src="../brand/麦当劳官网标志.png" alt="麦当劳金拱门标志">
+    <!-- 改这里：页脚。保持「娱乐性解读」，不要写成官方认证 -->
+    <span>女娲蒸馏 · 近期口味 · 娱乐性解读</span>
+  </div>
+
+</div>
+
+</body>
+</html>

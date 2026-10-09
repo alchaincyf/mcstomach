@@ -1,0 +1,21 @@
+# 凭据：任何真实 Token 都只放在本机，不进仓库
+.env
+.env.*
+*.token
+mcp-config.json
+mcp.json
+
+# 个人胃与运行产物（含私密画像与报告）
+我的胃/
+profile*.json
+!mcstomach/tests/fixtures/*.json
+报告.md
+order-list*.json
+norm*.json
+query-my-account*.json
+*.raw.json
+
+# Python 与系统文件
+__pycache__/
+*.pyc
+.DS_Store

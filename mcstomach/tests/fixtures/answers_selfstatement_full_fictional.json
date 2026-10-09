@@ -1,0 +1,16 @@
+{
+  "answers": [
+    {
+      "question_id": "q3",
+      "dimension": "must_have",
+      "text": "鱼堡，每次都要有，这是我长期的偏好",
+      "source": "user_stated"
+    },
+    {
+      "question_id": "q1",
+      "dimension": "drink",
+      "text": "常点热咖啡",
+      "source": "user_stated"
+    }
+  ]
+}

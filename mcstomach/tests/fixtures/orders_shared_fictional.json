@@ -1,0 +1,74 @@
+{
+  "data": {
+    "list": [
+      {
+        "orderStatus": "订单已完成",
+        "createTime": "2026-09-01 12:00:00",
+        "realTotalAmount": "40",
+        "orderProductList": [
+          {
+            "productName": "麦香鱼",
+            "productCode": "P001",
+            "quantity": 1
+          },
+          {
+            "productName": "中薯条",
+            "productCode": "P002",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "orderStatus": "订单已完成",
+        "createTime": "2026-09-02 12:00:00",
+        "realTotalAmount": "41",
+        "orderProductList": [
+          {
+            "productName": "麦香鱼",
+            "productCode": "P001",
+            "quantity": 1
+          },
+          {
+            "productName": "中薯条",
+            "productCode": "P002",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "orderStatus": "订单已完成",
+        "createTime": "2026-09-03 12:00:00",
+        "realTotalAmount": "160",
+        "orderProductList": [
+          {
+            "productName": "麦辣鸡腿堡",
+            "productCode": "P010",
+            "quantity": 4
+          },
+          {
+            "productName": "中薯条",
+            "productCode": "P002",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "orderStatus": "订单已完成",
+        "createTime": "2026-09-04 12:00:00",
+        "realTotalAmount": "150",
+        "orderProductList": [
+          {
+            "productName": "板烧鸡腿堡",
+            "productCode": "P011",
+            "quantity": 4
+          },
+          {
+            "productName": "中杯可乐",
+            "productCode": "P003",
+            "quantity": 4
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "data": {
+    "list": [
+      {
+        "orderStatus": "订单已完成",
+        "createTime": "2026-09-20 12:30:00",
+        "realTotalAmount": "42",
+        "orderProductList": [
+          {
+            "productName": "鱼堡套餐",
+            "productCode": "C001",
+            "quantity": 1,
+            "comboItemList": [
+              {
+                "name": "麦香鱼",
+                "productCode": "P001",
+                "quantity": 1
+              },
+              {
+                "name": "中薯条",
+                "productCode": "P002",
+                "quantity": 1
+              },
+              {
+                "name": "中杯可乐",
+                "productCode": "P003",
+                "quantity": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

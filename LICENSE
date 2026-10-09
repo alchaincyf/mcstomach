@@ -1,0 +1,36 @@
+MIT License
+
+Copyright (c) 2026 Huashu (花叔)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Third-party materials and trademarks (not covered by the MIT License above):
+
+- mcstomach/assets/brand/: McDonald's logo and menu product images, downloaded
+  from McDonald's China official public image URLs (sources listed in
+  mcstomach/assets/README.md). Included only as shape references for
+  generating illustrations. The cola image also shows the Coca-Cola trademark.
+- The MIT License does not grant any trademark rights. McDonald's, the Golden
+  Arches logo, product names and Coca-Cola are trademarks of their respective
+  owners, including where they appear inside the AI-generated images in
+  mcstomach/assets/style/ and docs/images/.
+- mcstomach/assets/style/reference-J/: a mascot image from the author's own
+  separate project, used only as a drawing-style reference.

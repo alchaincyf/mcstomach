@@ -1,0 +1,74 @@
+{
+  "data": {
+    "list": [
+      {
+        "orderStatus": "订单已完成",
+        "createTime": "2026-09-01 18:00:00",
+        "realTotalAmount": "40",
+        "orderProductList": [
+          {
+            "productName": "麦香鱼",
+            "productCode": "P001",
+            "quantity": 1
+          },
+          {
+            "productName": "零度冰可乐",
+            "productCode": "P020",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "orderStatus": "订单已完成",
+        "createTime": "2026-09-02 18:00:00",
+        "realTotalAmount": "40",
+        "orderProductList": [
+          {
+            "productName": "麦香鱼",
+            "productCode": "P001",
+            "quantity": 1
+          },
+          {
+            "productName": "零度冰可乐",
+            "productCode": "P020",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "orderStatus": "订单已完成",
+        "createTime": "2026-09-03 18:00:00",
+        "realTotalAmount": "41",
+        "orderProductList": [
+          {
+            "productName": "麦香鱼",
+            "productCode": "P001",
+            "quantity": 1
+          },
+          {
+            "productName": "零度冰可乐",
+            "productCode": "P020",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "orderStatus": "订单已完成",
+        "createTime": "2026-09-04 08:00:00",
+        "realTotalAmount": "36",
+        "orderProductList": [
+          {
+            "productName": "麦满分",
+            "productCode": "P007",
+            "quantity": 1
+          },
+          {
+            "productName": "热咖啡",
+            "productCode": "P021",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  }
+}

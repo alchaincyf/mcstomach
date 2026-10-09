@@ -1,0 +1,9 @@
+{
+  "_fixture_note": "虚构夹具。其中订单号、门店、金额、时间为编造数据，不对应任何真实用户。 积分已知用例。",
+  "data": {
+    "availablePoint": "7592",
+    "accumulativePoint": "141760.94",
+    "currency": "麦当劳积分",
+    "usedPoint": "115474.14"
+  }
+}

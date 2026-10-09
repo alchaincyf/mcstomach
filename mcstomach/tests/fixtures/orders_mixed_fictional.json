@@ -1,0 +1,283 @@
+{
+  "_fixture_note": "虚构夹具。其中订单号、门店、金额、时间为编造数据，不对应任何真实用户。",
+  "data": {
+    "list": [
+      {
+        "orderId": "100000000000000001",
+        "orderType": "1",
+        "createTime": "2026-09-01 12:12:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "C001",
+            "productName": "巨无霸套餐",
+            "quantity": 1,
+            "comboItemList": [
+              {
+                "productCode": "1001",
+                "name": "巨无霸",
+                "quantity": 1
+              },
+              {
+                "productCode": "2001",
+                "name": "中薯条",
+                "quantity": 1
+              },
+              {
+                "productCode": "3001",
+                "name": "雪碧中杯",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        "realTotalAmount": "40"
+      },
+      {
+        "orderId": "100000000000000002",
+        "orderType": "1",
+        "createTime": "2026-09-02 13:40:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1002",
+            "productName": "麦辣鸡腿堡",
+            "quantity": 1
+          },
+          {
+            "productCode": "2001",
+            "productName": "中薯条",
+            "quantity": 1
+          },
+          {
+            "productCode": "3001",
+            "productName": "雪碧中杯",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "41"
+      },
+      {
+        "orderId": "100000000000000003",
+        "orderType": "1",
+        "createTime": "2026-09-03 19:05:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "C002",
+            "productName": "板烧鸡腿堡套餐",
+            "quantity": 1,
+            "comboItemList": [
+              {
+                "productCode": "1003",
+                "name": "板烧鸡腿堡",
+                "quantity": 1
+              },
+              {
+                "productCode": "3001",
+                "name": "雪碧中杯",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "productCode": "2001",
+            "productName": "中薯条",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "40"
+      },
+      {
+        "orderId": "100000000000000004",
+        "orderType": "1",
+        "createTime": "2026-09-04 18:30:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1001",
+            "productName": "巨无霸",
+            "quantity": 1
+          },
+          {
+            "productCode": "2001",
+            "productName": "中薯条",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "42"
+      },
+      {
+        "orderId": "100000000000000005",
+        "orderType": "1",
+        "createTime": "2026-09-05 12:50:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "C002",
+            "productName": "板烧鸡腿堡套餐",
+            "quantity": 1,
+            "comboItemList": [
+              {
+                "productCode": "1003",
+                "name": "板烧鸡腿堡",
+                "quantity": 1
+              },
+              {
+                "productCode": "2001",
+                "name": "中薯条",
+                "quantity": 1
+              },
+              {
+                "productCode": "3001",
+                "name": "雪碧中杯",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        "realTotalAmount": "40"
+      },
+      {
+        "orderId": "100000000000000006",
+        "orderType": "1",
+        "createTime": "2026-09-06 20:10:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1002",
+            "productName": "麦辣鸡腿堡",
+            "quantity": 1
+          },
+          {
+            "productCode": "2001",
+            "productName": "中薯条",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "41"
+      },
+      {
+        "orderId": "100000000000000007",
+        "orderType": "1",
+        "createTime": "2026-09-07 14:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1001",
+            "productName": "巨无霸",
+            "quantity": 1
+          },
+          {
+            "productCode": "2001",
+            "productName": "中薯条",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "40"
+      },
+      {
+        "orderId": "100000000000000008",
+        "orderType": "1",
+        "createTime": "2026-08-28 12:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已取消",
+        "orderProductList": [
+          {
+            "productCode": "2001",
+            "productName": "中薯条",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "55"
+      },
+      {
+        "orderId": "100000000000000009",
+        "orderType": "1",
+        "createTime": "2026-08-29 12:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已取消",
+        "orderProductList": [
+          {
+            "productCode": "1002",
+            "productName": "麦辣鸡腿堡",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "55"
+      },
+      {
+        "orderId": "100000000000000010",
+        "orderType": "1",
+        "createTime": "2026-08-30 12:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单处理中",
+        "orderProductList": [
+          {
+            "productCode": "1002",
+            "productName": "麦辣鸡腿堡",
+            "quantity": 4
+          },
+          {
+            "productCode": "2001",
+            "productName": "中薯条",
+            "quantity": 1
+          },
+          {
+            "productCode": "3001",
+            "productName": "雪碧中杯",
+            "quantity": 1
+          },
+          {
+            "productCode": "1003",
+            "productName": "板烧鸡腿堡",
+            "quantity": 1
+          },
+          {
+            "productCode": "4001",
+            "productName": "苹果派",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "120"
+      }
+    ]
+  }
+}

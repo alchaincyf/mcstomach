@@ -1,0 +1,36 @@
+{
+  "_fixture_note": "虚构夹具。其中订单号、门店、金额、时间为编造数据，不对应任何真实用户。 矛盾口味（不吃辣 vs 订单里有麦辣鸡腿堡）+ 代点声明。",
+  "answers": [
+    {
+      "question_id": "q2",
+      "dimension": "hard_avoid",
+      "text": "不吃辣",
+      "source": "user_stated"
+    },
+    {
+      "question_id": "q3",
+      "dimension": "must_have",
+      "text": "一定要有薯条",
+      "source": "user_stated"
+    },
+    {
+      "question_id": "q4",
+      "dimension": "novelty",
+      "text": "更愿意点熟悉的",
+      "source": "user_stated"
+    },
+    {
+      "question_id": "q5",
+      "dimension": "roles",
+      "text": "经常帮同事一起点",
+      "source": "user_stated"
+    }
+  ],
+  "asked_question_ids": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5"
+  ]
+}

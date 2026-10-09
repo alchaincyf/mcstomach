@@ -1,0 +1,106 @@
+{
+  "_fixture_note": "虚构夹具。订单号、门店、金额、时间均为编造数据，不对应任何真实用户。 方向A：鱼堡+咖啡，薯条仅 1/4 单。",
+  "data": {
+    "list": [
+      {
+        "orderId": "600000000000000001",
+        "orderType": "1",
+        "createTime": "2026-09-01 12:30:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "C010",
+            "productName": "麦香鱼套餐",
+            "quantity": 1,
+            "comboItemList": [
+              {
+                "productCode": "1407",
+                "name": "新升级麦香鱼_1547",
+                "quantity": 1
+              },
+              {
+                "productCode": "3101",
+                "name": "中杯咖啡",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        "realTotalAmount": "38"
+      },
+      {
+        "orderId": "600000000000000002",
+        "orderType": "1",
+        "createTime": "2026-09-02 12:40:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1407",
+            "productName": "麦香鱼",
+            "quantity": 1
+          },
+          {
+            "productCode": "3101",
+            "productName": "中杯咖啡",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "37"
+      },
+      {
+        "orderId": "600000000000000003",
+        "orderType": "1",
+        "createTime": "2026-09-03 12:50:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1407",
+            "productName": "麦香鱼",
+            "quantity": 1
+          },
+          {
+            "productCode": "3101",
+            "productName": "中杯咖啡",
+            "quantity": 1
+          },
+          {
+            "productCode": "2001",
+            "productName": "中薯条",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "45"
+      },
+      {
+        "orderId": "600000000000000004",
+        "orderType": "1",
+        "createTime": "2026-09-04 13:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1407",
+            "productName": "麦香鱼",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "37"
+      }
+    ]
+  }
+}

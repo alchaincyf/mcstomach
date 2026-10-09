@@ -1,0 +1,46 @@
+{
+  "_fixture_note": "虚构夹具。其中订单号、门店、金额、时间为编造数据，不对应任何真实用户。 少样本用例，应只给「本次口味」。",
+  "data": {
+    "list": [
+      {
+        "orderId": "400000000000000001",
+        "orderType": "1",
+        "createTime": "2026-09-01 12:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "2001",
+            "productName": "中薯条",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "orderId": "400000000000000002",
+        "orderType": "1",
+        "createTime": "2026-09-02 12:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1001",
+            "productName": "巨无霸",
+            "quantity": 1
+          },
+          {
+            "productCode": "2001",
+            "productName": "中薯条",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  }
+}

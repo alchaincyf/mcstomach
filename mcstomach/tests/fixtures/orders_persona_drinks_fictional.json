@@ -1,0 +1,122 @@
+{
+  "_fixture_note": "虚构夹具。订单号、门店、金额、时间均为编造数据，不对应任何真实用户。 28号个性化：无糖青柠汽水大杯 3 单独立加点（首位），冰美式 1 单、普通可乐 1 单（低频），巨无霸 3 单当主食。覆盖：无糖/普通不误并、容量噪声可去、首位唯一。饮料名均为虚构，不对应真实账号口味。",
+  "data": {
+    "list": [
+      {
+        "orderId": "700000000000000001",
+        "orderType": "1",
+        "createTime": "2026-09-01 12:30:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "B001",
+            "productName": "巨无霸",
+            "quantity": 1
+          },
+          {
+            "productCode": "D001",
+            "productName": "无糖青柠汽水大杯",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "45"
+      },
+      {
+        "orderId": "700000000000000002",
+        "orderType": "1",
+        "createTime": "2026-09-02 12:40:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "B001",
+            "productName": "巨无霸",
+            "quantity": 1
+          },
+          {
+            "productCode": "D001",
+            "productName": "无糖青柠汽水大杯",
+            "quantity": 2
+          }
+        ],
+        "realTotalAmount": "50"
+      },
+      {
+        "orderId": "700000000000000003",
+        "orderType": "1",
+        "createTime": "2026-09-03 12:50:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "B001",
+            "productName": "巨无霸",
+            "quantity": 1
+          },
+          {
+            "productCode": "D001",
+            "productName": "无糖青柠汽水大杯",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "45"
+      },
+      {
+        "orderId": "700000000000000004",
+        "orderType": "1",
+        "createTime": "2026-09-04 12:20:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "B002",
+            "productName": "板烧鸡腿堡",
+            "quantity": 1
+          },
+          {
+            "productCode": "D002",
+            "productName": "冰美式",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "42"
+      },
+      {
+        "orderId": "700000000000000005",
+        "orderType": "1",
+        "createTime": "2026-09-05 12:10:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "B003",
+            "productName": "麦香鱼",
+            "quantity": 1
+          },
+          {
+            "productCode": "D003",
+            "productName": "可乐",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "33"
+      }
+    ]
+  }
+}

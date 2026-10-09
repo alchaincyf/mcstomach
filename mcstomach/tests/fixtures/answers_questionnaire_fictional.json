@@ -1,0 +1,21 @@
+{
+  "_fixture_note": "虚构夹具。其中订单号、门店、金额、时间为编造数据，不对应任何真实用户。 纯问卷备用入口用例。",
+  "answers": [
+    {
+      "question_id": "q1",
+      "dimension": "staple",
+      "text": "常点板烧鸡腿堡",
+      "source": "user_stated"
+    },
+    {
+      "question_id": "q2",
+      "dimension": "hard_avoid",
+      "text": "不吃香菜",
+      "source": "user_stated"
+    }
+  ],
+  "asked_question_ids": [
+    "q1",
+    "q2"
+  ]
+}

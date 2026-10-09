@@ -1,0 +1,14 @@
+{
+  "_fixture_note": "虚构夹具（16 号 I 方向完整链路用）。与 orders_fish_coffee_fictional.json 成对。只做一件事：用 q5 显式确认订单里的每一单都归本人，同时刻意避开 _roles 正则的触发词（帮/同事/家人/朋友/一起/带了/顺带），确保被判为纯本人点单。",
+  "answers": [
+    {
+      "question_id": "q5",
+      "dimension": "roles",
+      "text": "这些订单都是我自己点、自己吃的，单据都是独立的一次消费。",
+      "source": "user_stated"
+    }
+  ],
+  "asked_question_ids": [
+    "q5"
+  ]
+}

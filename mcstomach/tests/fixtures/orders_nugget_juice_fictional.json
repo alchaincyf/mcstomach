@@ -1,0 +1,76 @@
+{
+  "_fixture_note": "虚构夹具。订单号、门店、金额、时间均为编造数据，不对应任何真实用户。 方向B：麦乐鸡+橙汁同为 3/3，应为固定搭档而非单品唯粉。",
+  "data": {
+    "list": [
+      {
+        "orderId": "700000000000000001",
+        "orderType": "1",
+        "createTime": "2026-09-11 18:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1500",
+            "productName": "麦乐鸡",
+            "quantity": 1
+          },
+          {
+            "productCode": "3300",
+            "productName": "橙汁",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "30"
+      },
+      {
+        "orderId": "700000000000000002",
+        "orderType": "1",
+        "createTime": "2026-09-12 18:10:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1500",
+            "productName": "麦乐鸡",
+            "quantity": 1
+          },
+          {
+            "productCode": "3300",
+            "productName": "橙汁",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "30"
+      },
+      {
+        "orderId": "700000000000000003",
+        "orderType": "1",
+        "createTime": "2026-09-13 18:20:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0002",
+        "storeName": "虚构门店二号",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1500",
+            "productName": "麦乐鸡",
+            "quantity": 1
+          },
+          {
+            "productCode": "3300",
+            "productName": "橙汁",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "31"
+      }
+    ]
+  }
+}

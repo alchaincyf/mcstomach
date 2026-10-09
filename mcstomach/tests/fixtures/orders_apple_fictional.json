@@ -1,0 +1,106 @@
+{
+  "_fixture_note": "虚构夹具。其中订单号、门店、金额、时间为编造数据，不对应任何真实用户。 反例：反复出现的是苹果派，不是薯条。",
+  "data": {
+    "list": [
+      {
+        "orderId": "300000000000000001",
+        "orderType": "1",
+        "createTime": "2026-09-01 15:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "C001",
+            "productName": "巨无霸套餐",
+            "quantity": 1,
+            "comboItemList": [
+              {
+                "productCode": "1001",
+                "name": "巨无霸",
+                "quantity": 1
+              },
+              {
+                "productCode": "4001",
+                "name": "苹果派",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        "realTotalAmount": "35"
+      },
+      {
+        "orderId": "300000000000000002",
+        "orderType": "1",
+        "createTime": "2026-09-02 16:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1002",
+            "productName": "麦辣鸡腿堡",
+            "quantity": 1
+          },
+          {
+            "productCode": "4001",
+            "productName": "苹果派",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "36"
+      },
+      {
+        "orderId": "300000000000000003",
+        "orderType": "1",
+        "createTime": "2026-09-03 17:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1003",
+            "productName": "板烧鸡腿堡",
+            "quantity": 1
+          },
+          {
+            "productCode": "4001",
+            "productName": "苹果派",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "37"
+      },
+      {
+        "orderId": "300000000000000004",
+        "orderType": "1",
+        "createTime": "2026-09-04 18:00:00",
+        "beType": "1",
+        "beCode": "",
+        "storeCode": "FC0001",
+        "storeName": "虚构门店",
+        "orderStatus": "订单已完成",
+        "orderProductList": [
+          {
+            "productCode": "1001",
+            "productName": "巨无霸",
+            "quantity": 1
+          },
+          {
+            "productCode": "4001",
+            "productName": "苹果派",
+            "quantity": 1
+          }
+        ],
+        "realTotalAmount": "38"
+      }
+    ]
+  }
+}
