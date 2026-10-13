@@ -19,3 +19,4 @@ query-my-account*.json
 __pycache__/
 *.pyc
 .DS_Store
+.last-update-check
