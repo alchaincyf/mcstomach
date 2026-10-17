@@ -2,9 +2,10 @@
 
 > 把你的麦当劳订单，蒸馏成一个能带走的「胃」。
 
-https://github.com/user-attachments/assets/bed3ecfe-386a-440c-aa4b-6f6d761fd0c9
-
-<p align="center"><sub>30 秒发布动画（建议开声音）。角色由腾讯WorkBuddy ImageGen 生成。</sub></p>
+<p align="center">
+  <img src="docs/images/release-animation.gif" alt="麦门胃.skill 30 秒发布动画" width="900" />
+</p>
+<p align="center"><sub>30 秒发布动画，角色由腾讯WorkBuddy ImageGen 生成。带声音的完整版在<a href="#有声版发布动画">文末</a>。</sub></p>
 
 <p align="center">
   <img src="docs/images/title-cards-overview.jpg" alt="14 种胃称号卡总览（昵称与城市均为虚构示例）" width="900" />
@@ -239,3 +240,7 @@ skill 的代码、测试和角色生图在腾讯WorkBuddy 里完成，过程见 
 - 代码与文档以 [MIT License](LICENSE) 开源。`mcstomach/assets/brand/` 里的麦当劳标志与餐品图来自麦当劳官方公开图片地址（可乐图上带可口可乐商标），权利归各自权利人，不在 MIT 授权范围内，只作造型参考；MIT 也不授予任何商标权。
 
 作者：花叔（[@alchaincyf](https://github.com/alchaincyf)）。觉得好玩的话，欢迎点个 Star。
+
+## 有声版发布动画
+
+https://github.com/user-attachments/assets/bed3ecfe-386a-440c-aa4b-6f6d761fd0c9
