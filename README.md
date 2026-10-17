@@ -2,6 +2,10 @@
 
 > 把你的麦当劳订单，蒸馏成一个能带走的「胃」。
 
+https://github.com/user-attachments/assets/bed3ecfe-386a-440c-aa4b-6f6d761fd0c9
+
+<p align="center"><sub>30 秒发布动画（建议开声音）。角色由腾讯WorkBuddy ImageGen 生成。</sub></p>
+
 <p align="center">
   <img src="docs/images/title-cards-overview.jpg" alt="14 种胃称号卡总览（昵称与城市均为虚构示例）" width="900" />
 </p>
